@@ -92,6 +92,7 @@ const [user, setUser] = useState({
 
   const  toggleTodo = async(id: string) => {
     const todo = todos.find((todo)=> todo.id === id);
+    if (!todo) return;
     const response = await fetch(`/api/todos/${id}`,{
       method: "PUT",
       body: JSON.stringify({ completed: !todo.completed})
