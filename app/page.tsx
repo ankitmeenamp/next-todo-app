@@ -155,7 +155,7 @@ const logout = async () => {
     <div className="mx-auto max-w-2xl px-4 py-8">
       <header className="mb-8 flex items-center justify-between">
   <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100">
-    Todo App
+    My Todo App
   </h1>
 
   <div className="flex items-center gap-3">
